@@ -123,3 +123,41 @@ section.grey{
   font-weight: normal;
   color: #808080
 }
+
+/* section 2 info 3clm */
+.info::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.clm{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.5;
+}
+.clm img{
+  height: 200px;
+}
+
+.clm h2{
+  color: #7CBB02;
+}
+
+.clm hr{
+  display:inline-block;
+  width: 25%;
+  height: 2px;
+  text-align: center;
+  color: #808080;
+}
+
+.clm p{
+  color: #808080
+}
+
+hr.divider{
+  width: 98%;
+  margin: auto;
+}
