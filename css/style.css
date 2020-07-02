@@ -109,6 +109,17 @@ button{
 }
 
 /* section 1 grigia */
+section.grey{
+  background-color: #D3D3D3;
+}
 .banner{
-  background-color: #D3D3D3
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.banner h4{
+  font-weight: normal;
+  color: #808080
 }
