@@ -4,8 +4,12 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 header {
-  height: 400px;
+  /* height: 400px; */
   background-color: #0C325A;
 }
 
@@ -13,10 +17,29 @@ header {
   width: 80%;
   margin: auto;
 }
+
+.menu-line{
+  list-style: none;
+}
+
+.menu-inline li{
+  display: inline-block;
+}
+
+button{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #7CBB02;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+}
+
 /* header top */
 .header-top{
-  height: 70px;
-  background-color: grey;
+  /* height: 70px; */
+  line-height: 70px;
 }
 
 .header-top::after{
@@ -27,29 +50,58 @@ header {
 
 .header-top-logo{
   float: left;
-  width: 20%;
-  background-color: lightblue
+  width: 15%;
+  vertical-align: middle;
 }
 
 .header-top-nav-center{
   float: left;
-  width: 40%;
-  background-color: green;
+  width: 45%;
 }
 
 .header-top-nav-right{
   float: left;
   width: 40%;
-  background-color: lightgreen
+  text-align: right;
 }
+
+.menu-inline .right li{
+  width: 33.33%
+}
+
+.header-top li{
+  margin: 0 10px;
+}
+.header-top a{
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-top li a button{
+  font-size: 13px;
+  padding: 5px
+}
+
 
 /* header bottom */
 .header-bottom{
-  background-color: yellow;
+  position: relative;
+  background-image: url(../img/background-header.png);
   height: 330px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 .claim{
-  width: 40%;
-  background-color: blue;
+  position: absolute;
+  top: 25%;
+  width: 30%;
+}
 
+.claim button{
+  font-size: 13px;
+  padding: 5px;
+  margin-top: 5%
 }
