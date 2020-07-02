@@ -154,10 +154,40 @@ section.grey{
 }
 
 .clm p{
-  color: #808080
+  color: #808080;
 }
 
 hr.divider{
   width: 98%;
+  height: 2px;
   margin: auto;
+  color: #D3D3D3;
+}
+
+/* section 3 2 clm img+text */
+.placement::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.placement img{
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+.livello {
+  float: right;
+  width: 40%;
+  padding: 30px;
+}
+
+.livello p{
+  color: #808080;
+  margin: 20px 0;
+}
+
+.livello a{
+  color: #5586BC;
 }
