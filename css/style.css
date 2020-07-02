@@ -31,9 +31,9 @@ button{
   text-transform: uppercase;
   text-align: center;
   background-color: #7CBB02;
-  border: 1px solid #000;
+  border: none;
   border-radius: 5px;
-
+  padding: 5px
 }
 
 /* header top */
@@ -80,9 +80,12 @@ button{
 }
 .header-top li a button{
   font-size: 13px;
-  padding: 5px
 }
 
+#login{
+  background-color: transparent;
+  border: 1px solid #fff;
+}
 
 /* header bottom */
 .header-bottom{
@@ -100,8 +103,12 @@ button{
   width: 30%;
 }
 
-.claim button{
-  font-size: 13px;
-  padding: 5px;
-  margin-top: 5%
+#piano{
+  padding: 20px 10px;
+  margin-top: 10%;
+}
+
+/* section 1 grigia */
+.banner{
+  background-color: #D3D3D3
 }
